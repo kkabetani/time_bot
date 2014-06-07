@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require './twitter'
+require 'twitter'
 
 client = Twitter::REST::Client.new do |config|
   config.consumer_key        = ENV['TWITTER_CONSUMER_KEY']
