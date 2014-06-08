@@ -1,4 +1,3 @@
-require 'bundler/setup'
 require 'twitter'
 
 client = Twitter::REST::Client.new do |config|
